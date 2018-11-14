@@ -1,0 +1,41 @@
+{
+  "name": "dogslove",
+  "version": "1.0.0",
+  "description": "API for dogslove delivery",
+  "main": "config.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.3",
+    "express": "^4.16.3",
+    "gn-api-sdk-node": "0.0.19",
+    "jsonwebtoken": "^5.7.0",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.0",
+    "mv": "^2.1.1",
+    "mysql": "^2.15.0",
+    "node-fetch": "^2.1.2",
+    "nodemailer": "^4.6.4",
+    "path": "^0.12.7",
+    "rm": "^0.1.8",
+    "uuid": "^3.2.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ricardotechlise@bitbucket.org/lucastechlise/ecoresponse-api.git"
+  },
+  "keywords": [
+    "dogslove"
+  ],
+  "author": "techlise",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lucastechlise/ecoresponse-api#readme"
+}
